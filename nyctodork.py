@@ -21,14 +21,19 @@ B  = "\033[34m";
 
 # Banner
 def logo():
-	print G+"\n                                                                  "
-        print "    =                      -nycto-d0rK-Scanner-                   =     "
-        print "   =                         DORKABLE HACKS                         =    "  
-        print "  =                                                                  =   "
-        print "||                          Written By Nycto                             ||"
-        print "                       nycto+hackerone@keemail.me                        "
-        print "========================================================================\n"
-	print G
+    print G+"\n                                                                   "
+            
+print "███╗   ██╗██╗   ██╗ ██████╗████████╗ ██████╗       ██████╗  ██████╗ ██████╗ ██╗  ██╗ "
+print "████╗  ██║╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔═══██╗      ██╔══██╗██╔═══██╗██╔══██╗██║ ██╔╝ "
+print "██╔██╗ ██║ ╚████╔╝ ██║        ██║   ██║   ██║█████╗██║  ██║██║   ██║██████╔╝█████╔╝  "
+print "██║╚██╗██║  ╚██╔╝  ██║        ██║   ██║   ██║╚════╝██║  ██║██║   ██║██╔══██╗██╔═██╗  "
+print "██║ ╚████║   ██║   ╚██████╗   ██║   ╚██████╔╝      ██████╔╝╚██████╔╝██║  ██║██║  ██╗ "
+print "╚═╝  ╚═══╝   ╚═╝    ╚═════╝   ╚═╝    ╚═════╝       ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ "
+print "                                      Production                                        "
+print "                                  Written By Nycto                                "
+print "                                Nycto - Dork - Scanner                          "
+print "====================================================================================\n"
+print G
 
 if sys.platform == 'linux' or sys.platform == 'linux2':
   subprocess.call("clear", shell=True)
